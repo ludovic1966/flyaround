@@ -13,3 +13,8 @@ wcs_coav_reservation:
 wcs_coav_terrain:
         resource: "@WCSCoavBundle/Resources/config/routing/terrain.yml"
         prefix:   /terrain
+
+wcs_coav_planemodel:
+       resource: "@WCSCoavBundle/Resources/config/routing/planemodel.yml"
+       prefix:   /planemodel
+

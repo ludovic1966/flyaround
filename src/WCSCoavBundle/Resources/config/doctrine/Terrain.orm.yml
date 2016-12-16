@@ -26,3 +26,8 @@ WCSCoavBundle\Entity\Terrain:
             type: string
             length: 255
     lifecycleCallbacks: {  }
+
+    oneToMany:
+        departures:
+          targetEntity: WCSCoavBundle\Entity\Flight
+          mappedBy: departure
