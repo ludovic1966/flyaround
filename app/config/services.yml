@@ -7,3 +7,12 @@ services:
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+    app.admin.terrain:
+        class: WCS\CoavBundle\Admin\TerrainAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Content", label: "Terrain" }
+        arguments:
+            - ~
+            - WCS\CoavBundle\Entity\Terrain
+            - ~
