@@ -73,3 +73,8 @@ sonata_block:
         # enable the SonataAdminBundle block
         sonata.admin.block.admin_list:
             contexts:   [admin]
+
+sonata_admin:
+    title: Flyaround
+    title_logo: bundles\wcscoav\img\flyaround_icon.png
+    web/bundles/wcscoav/img/flyaround_icon.png

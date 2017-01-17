@@ -51,6 +51,11 @@ class Terrain
      */
     private $country;
 
+    /**
+     * @var string
+     */
+    private $arrivals;
+
 
     /**
      * Get id
@@ -243,5 +248,28 @@ class Terrain
     public function getDepartures()
     {
         return $this->departures;
+    }
+
+    /**
+     * Set arrivals
+     *
+     * @param string $arrivals
+     * @return Terrain
+     */
+    public function setArrivals($arrivals)
+    {
+        $this->arrivals = $arrivale;
+
+        return $this;
+    }
+
+    /**
+     * Get arrivals
+     *
+     * @return string
+     */
+    public function getArrivals()
+    {
+        return $this->arrivals;
     }
 }

@@ -25,6 +25,9 @@ WCSCoavBundle\Entity\Terrain:
         country:
             type: string
             length: 255
+        arrivals:
+            type: string
+            length: 255
     lifecycleCallbacks: {  }
 
     oneToMany:
